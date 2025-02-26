@@ -1,3 +1,40 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Profile Section */
+#profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.section__pic-container img.curved-img {
+  border-radius: 50%; /* Fully rounded images */
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.section__text {
+  margin-left: 2rem;
+}
+
+/* About Section */
+#about .about-pic.curved-img {
+  border-radius: 50%; /* Fully rounded images */
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Media Queries */
 @media screen and (max-width: 1400px) {
   #profile {
     height: 83vh;
